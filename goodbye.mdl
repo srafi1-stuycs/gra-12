@@ -1,0 +1,30 @@
+frames 40
+basename goodbye
+vary rot 0 10 0 1
+vary rot 10 20 1 0
+vary rot 20 30 0 -1
+vary rot 30 40 -1 0
+
+push
+move 250 100 0 
+rotate z 10 rot
+move 0 100 0 
+//rotate y 40
+rotate x 90
+box -75 0 90 150 20 180 
+push
+move -75 0 -80
+box 0 0 0 30 20 140
+move 40 0 0
+box 0 0 0 30 20 140
+move 40 0 0
+box 0 0 0 30 20 140
+move 40 0 0
+box 0 0 0 30 20 140
+pop
+move -75 0 80
+rotate y 30
+box 0 0 0 30 20 120 
+
+//display
+
