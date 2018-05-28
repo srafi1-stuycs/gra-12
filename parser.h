@@ -12,7 +12,6 @@ extern int lastop;
 #define Kd 1
 #define Ks 2
 
-
 struct command
 {
   int opcode;
